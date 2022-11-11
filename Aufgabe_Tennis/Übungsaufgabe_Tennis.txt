@@ -1,0 +1,27 @@
+In einem Tennis-Match treten 2 Mannschaften gegeneinander an.
+Gespielt wird nach dem Ko-System.
+Ein zufälliger Spieler aus Mannschaft 1 spielt gegen einen
+zufälligen Spieler aus Mannschaft 2.
+Der Spieler, der das Spiel verliert, scheidet aus und wird aus der Mannschaft entfernt.
+
+Eine Begegnung dauert so lange, bis ein Spieler DREI Matches gewonnen hat. Hier weichen wir von den offiziellen Regeln ab (glaub ich :-)).
+
+Beispiel:
+	Spieler 1 - Spieler 2
+Match 1:    6     -    4
+Match 2:    3     -    6
+Match 3:    3     -    6
+Match 4:    6     -    2
+Match 5:    6     -    5
+
+
+Turnier-Sieger ist die Mannschaft, die noch Spieler hat.
+Eine Mannschaft besteht aus 4 Spielern.
+Für die Mannschaft eignet sich der Datentyp LISTE (ArrayList).
+
+
+
+Aus beiden Mannschaften werden ZUFÄLLIG Spieler gewählt.
+Der Sieger verbleibt in seiner Mannschaft, der Verlierer scheidet aus.
+Danach wird neu ZUFÄLLIG ausgelost.
+
