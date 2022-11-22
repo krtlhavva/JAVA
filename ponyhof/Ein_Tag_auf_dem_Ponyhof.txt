@@ -1,0 +1,59 @@
+Ein Tag auf dem Ponyhof
+=======================
+
+Attraktionen (als ENUM!!)
+=========================
+Planwagenfahrt		7 Euro
+Ponyreiten		5 Euro
+Hühner füttern		2 Euro
+Brot backen		5 Euro
+Streichelzoo		3 Euro
+
+Eintrittspreise (wie Ihr mögt)
+===============
+Erwachsene		15 Euro
+Kinder (bis 7 Jahre)	 5 Euro
+Kinder (8 bis 13 Jahre)	 7 Euro
+Rentner			10 Euro
+Studenten		 9 Euro
+
+Essen + Trinken (als HashMap!!)
+===============
+Wasser			2 Euro
+Limo			3 Euro
+Waffeln			3 Euro
+Bratwurst		2 Euro
+Salat			6 Euro
+Currywurst		4 Euro
+Pommes			2 Euro
+Veganer Wrap		5 Euro
+
+Ein paar Eckdaten
+=================
+Täglich kommen zwischen 150 und 250 ZUFÄLLIGE Besucher.
+Kinder (bis 7 Jahre) kommen IMMER in Begleitung eines ERWACHSENEN oder RENTNERS.
+
+JEDER Besucher nutzt ZUFÄLLIG 3 der 5 Attraktionen.
+
+JEDER Besucher verzehrt 2 bis 4 ZUFÄLLIGE Speisen/Getränke.
+
+
+Dein Job als Parkmanager
+========================
+
+Am Ende eines Tages willst Du wissen
+====================================
+- wie viele Besucher INSGESAMT da waren.
+- wie viele Besucher aus der jeweiligen Kategorie da waren (Erwachsene, Kinder..)
+- wie viele Attraktionen genutzt wurden
+- welche Attraktionen genutzt wurden
+- welche Speisen und Getränke in welcher Menge verzehrt wurden
+- Einnahmen aus Eintrittspreisen
+- Einnahmen aus Attraktionen
+- Einnahmen aus Speisen und Getränke
+- Gesamteinnahmen
+
+
+... und bevor jemand fragt ...
+JA! Die Preise sind ALLE Integer.
+
