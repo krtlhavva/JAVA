@@ -1,0 +1,10 @@
+Aufgabe Terminverwaltung _Java_MySQL
+Erstellen Sie eine Java-Konsolenanwendung die das Anlegen von Terminen ermöglicht. Diese sollen dann in eine Datenbank „Terminverwaltung“ mit der Tabelle „Termin“ gespeichert werden.
+Die Tabelle ist wie folgt gegliedert ID Integer Primary Key AutoIncrement, Datum String, Uhrzeit String, Termin String, Beschreibung String. Wählen Sie für den Datentyp String jeweils ein geeignetes Datenbankformat.
+Erstellen Sie ein Konsolen-Menü das bei Start abfragt ob Sie:
+1. Einen Termin erstellen wollen
+2. Sich alle Termine anzeigen lassen wollen
+3. Das Programm beenden wollen
+Bei Auswahl 1 soll ein Termin eingegeben und dann die Angaben auf der Konsole angezeigt werden. Nach bestätigen der Angaben wird dieser Termin in die DB übertragen. Danach soll dem Benutzer die Wahl gegeben werden ob er noch einen Termin eintragen möchte, wenn nicht dann kehrt das Programm ins Hauptmenü zurück.
+Bei Auswahl 2 soll dem Benutzer alle seine angelegten Termine angezeigt und das Programm angehalten werden, bis eine Taste gedrückt wird, dann kehrt das Programm zurück in das Hauptmenü.
+Bei Auswahl 3 wird das Programm beendet.
